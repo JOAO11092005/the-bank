@@ -1,0 +1,61 @@
+.logo {
+    display: flex;
+}
+
+header {
+    width: 1421px;
+    margin-top: 45px;
+    margin-left: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu ul li {
+    margin-left: 30px;
+    align-self: center;
+}
+
+.menu ul .sobre {
+    align-self: center;
+    background-color: #5BC241;
+    /* padding: 10px; */
+    width: 55px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #000;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    align-self: center;
+}
+
+.btn {
+    margin-left: 30px;
+    background-color: #5BC241;
+    width: 127px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+
+
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
