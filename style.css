@@ -67,7 +67,7 @@ header {
     margin-right: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .logo {
         display: flex;
         margin-bottom: 100px;
