@@ -1,9 +1,10 @@
+
 .logo {
     display: flex;
 }
 
 header {
-    width: 1421px;
+    /* width: 1421px; */
     margin-top: 45px;
     margin-left: 44px;
     display: flex;
@@ -63,6 +64,7 @@ header {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-right: 10px;
 }
 
 @media (max-width: 400px) {
@@ -78,6 +80,8 @@ header {
         margin-left: 44px;
         display: block;
         justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 27px;
     }
 
     .menu ul {
@@ -99,6 +103,7 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-bottom: 33px;
     }
 
     .menu ul li a {
@@ -152,6 +157,7 @@ header {
         align-items: center;
         margin: 0 auto;
         margin-top: 50px;
+        margin-bottom: 33px;
     }
 
 }
