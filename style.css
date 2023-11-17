@@ -1,10 +1,8 @@
-
 .logo {
     display: flex;
 }
 
 header {
-    /* width: 1421px; */
     margin-top: 45px;
     margin-left: 44px;
     display: flex;
@@ -26,9 +24,11 @@ header {
     font-weight: 400;
     line-height: normal;
     align-self: center;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
 }
 
-.menu ul .sobre {
+.menu ul li:hover{
     align-self: center;
     background-color: #5BC241;
     padding: 10px;
@@ -64,10 +64,14 @@ header {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-right: 10px;
-}
 
-@media (max-width: 768px) {
+    margin-right: 30px;
+}
+.btn:hover{
+    
+    transition: 0.3s ease-in-out;
+}
+@media (max-width: 400px) {
     .logo {
         display: flex;
         margin-bottom: 100px;
@@ -80,8 +84,6 @@ header {
         margin-left: 44px;
         display: block;
         justify-content: space-between;
-        margin: 0 auto;
-        margin-top: 27px;
     }
 
     .menu ul {
@@ -103,18 +105,21 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 33px;
     }
-
+    .menu ul li:hover{
+        background-color:  #5BC241;
+    }
     .menu ul li a {
         width: 100%;
     }
 
     .menu ul .item {
         margin-bottom: 33px;
+        width: 233px;
+        transition: 0.4s ease-in-out;
     }
 
-    .menu ul .sobre {
+    .menu ul .sobre{
         align-self: center;
         background-color: #5BC241;
         /* padding: 10px; */
@@ -122,7 +127,7 @@ header {
         display: block;
         justify-content: center;
         align-items: center;
-
+       transition: 0.5s;
     }
 
     .logo h1 {
@@ -157,7 +162,12 @@ header {
         align-items: center;
         margin: 0 auto;
         margin-top: 50px;
-        margin-bottom: 33px;
+
+       
+    }
+    .btn:hover{
+        width: 200px;
+        transition: 0.3s;
     }
 
 }
