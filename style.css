@@ -34,7 +34,6 @@ header {
     padding: 10px;
     justify-content: center;
     display: flex;
-
 }
 
 .logo h1 {
@@ -66,16 +65,15 @@ header {
     line-height: normal;
 
     margin-right: 30px;
+    transition: 0.4s;
 }
-.btn:hover{
-    
-    transition: 0.3s ease-in-out;
-}
-@media (max-width: 816px) {
+
+@media (max-width: 818px) {
     .logo {
         display: flex;
         margin-bottom: 100px;
         justify-content: center;
+        margin-top: 27px;
     }
 
     header {
@@ -84,6 +82,7 @@ header {
         margin-left: 44px;
         display: block;
         justify-content: space-between;
+        margin: 0 auto;
     }
 
     .menu ul {
@@ -162,7 +161,9 @@ header {
         align-items: center;
         margin: 0 auto;
         margin-top: 50px;
-
+       
+        width: 151px;
+        transition: 0.4s;
        
     }
     .btn:hover{
