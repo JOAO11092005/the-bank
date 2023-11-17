@@ -71,7 +71,7 @@ header {
     
     transition: 0.3s ease-in-out;
 }
-@media (max-width: 400px) {
+@media (max-width: 816px) {
     .logo {
         display: flex;
         margin-bottom: 100px;
